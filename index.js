@@ -9,9 +9,10 @@ function theBeatlesPlay(arrayMus, arrayIns) {
 
 function johnLennonFacts(array) {
   const facts = [];
-  while (i < array.length) {
-    facts.push(array[i] + "!!!")
-    i++;
+  var j = 0;
+  while (j < array.length) {
+    facts.push(array[j] + "!!!")
+    j++;
   }
   return facts;
 }
