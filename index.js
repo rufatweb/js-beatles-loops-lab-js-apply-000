@@ -21,8 +21,12 @@ function iLoveTheBeatles(num) {
   var arr = [];
   var x = 0;
   do {
-  arr.push("I love the Beatles!");
   x++;
-} while (x < 16);
- return arr;
+  arr.push("I love the Beatles!");
+} while (x < 15); 
+return arr;
 }
+
+
+
+
